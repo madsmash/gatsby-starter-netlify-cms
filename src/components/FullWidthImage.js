@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 400,
+    height = 500,
     img,
     title,
     subheading,
@@ -69,8 +69,8 @@ export default function FullWidthImage(props) {
                 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
                   boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                    "#03817f86 0.5rem 0px 0px, #03817f86 -0.5rem 0px 0px",
+                  backgroundColor: "#03817f86",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25em",
@@ -84,8 +84,8 @@ export default function FullWidthImage(props) {
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
                   boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
+                    "#03817f86 0.5rem 0px 0px, #03817f86 -0.5rem 0px 0px",
+                  backgroundColor: "#03817f86",
                   color: "white",
                   lineHeight: "1",
                   padding: "0.25rem",
